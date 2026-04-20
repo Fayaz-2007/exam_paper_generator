@@ -1,0 +1,26 @@
+
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Bash(java -version)",
+      "Bash(npm --version)",
+      "Bash(winget --version)",
+      "Bash(choco --version)",
+      "Bash(scoop --version)",
+      "Bash(powershell.exe -Command \"winget --version\")",
+      "Bash(powershell.exe -Command \"java -version\")",
+      "Bash(powershell.exe -Command \"Get-ExecutionPolicy\")",
+      "Bash(powershell.exe -Command \"iwr -useb get.scoop.sh | iex\")",
+      "Bash(powershell.exe -Command \"scoop bucket add java\")",
+      "Bash(powershell.exe -Command '$env:PATH += '\\\\'';'\\\\'' + $env:USERPROFILE + '\\\\''\\\\scoop\\\\shims'\\\\''; scoop bucket add java')",
+      "Bash(powershell.exe -Command '$env:PATH += '\\\\'';'\\\\'' + $env:USERPROFILE + '\\\\''\\\\scoop\\\\shims'\\\\''; scoop install temurin17-jdk')",
+      "Bash(powershell.exe -Command '$env:PATH += '\\\\'';'\\\\'' + $env:USERPROFILE + '\\\\''\\\\scoop\\\\shims'\\\\''; scoop install maven')",
+      "Bash(powershell.exe -Command '$env:PATH += '\\\\'';'\\\\'' + $env:USERPROFILE + '\\\\''\\\\scoop\\\\shims;'\\\\'' + $env:USERPROFILE + '\\\\''\\\\scoop\\\\apps\\\\temurin17-jdk\\\\current\\\\bin;'\\\\'' + $env:USERPROFILE + '\\\\''\\\\scoop\\\\apps\\\\maven\\\\current\\\\bin'\\\\''; java -version; mvn -version')",
+      "Bash(powershell.exe -Command '$env:PATH += '\\\\'';'\\\\'' + $env:USERPROFILE + '\\\\''\\\\scoop\\\\shims;'\\\\'' + $env:USERPROFILE + '\\\\''\\\\scoop\\\\apps\\\\temurin17-jdk\\\\current\\\\bin;'\\\\'' + $env:USERPROFILE + '\\\\''\\\\scoop\\\\apps\\\\maven\\\\current\\\\bin'\\\\''; Set-Location '\\\\''C:\\\\Users\\\\FAYAZ\\\\Desktop\\\\exam_paper_generator\\\\backend'\\\\''; mvn spring-boot:run 2>&1')",
+      "Bash(python server.py)",
+      "Bash(powershell.exe -Command \"Test-NetConnection -ComputerName localhost -Port 8000\")"
+    ]
+  }
+}
