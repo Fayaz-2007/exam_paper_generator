@@ -30,13 +30,21 @@ Setting an exam paper by hand means manually picking questions, checking the mar
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Backend | ![Spring Boot](https://img.shields.io/badge/Spring%20Boot%203.2-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Java](https://img.shields.io/badge/Java%2017-ED8B00?style=flat-square&logo=openjdk&logoColor=white) |
-| Auth | ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) JWT (jjwt) |
-| PDF generation | ![Apache PDFBox](https://img.shields.io/badge/Apache%20PDFBox-D22128?style=flat-square) |
-| Data | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) via OkHttp REST calls |
-| Frontend | HTML · CSS · JavaScript, served by a Python `http.server`-based `server.py` |
+**Backend**
+
+![](https://skillicons.dev/icons?i=java,spring)
+
+**Frontend**
+
+![](https://skillicons.dev/icons?i=html,css,js)
+
+**Tools**
+
+![](https://skillicons.dev/icons?i=py,git,github)
+
+**Also using**
+
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens&logoColor=white) ![Apache PDFBox](https://img.shields.io/badge/Apache%20PDFBox-D22128?style=for-the-badge) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
 ## 🏗️ Architecture
 
